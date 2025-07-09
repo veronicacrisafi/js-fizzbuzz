@@ -9,6 +9,8 @@ Abbiamo visto qualcosa di particolare che possiamo usare?*/
 //for Loop per stampare i numeri da 1 a 100 con incremento
 
 for (let i = 1; i <= 100; i++) {
+  console.log(i);
+
   //condizione per la quale se si tratta di un multiplo di 3 e 5 viene stampato FizzBuzz (prima lo avevo messo alla fine ma mettendolo alla fine non funzona, perché deve prima cercare i multipli di entrambi e poi se questa condizione non è veritiera passa alle altre due condizioni )
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
