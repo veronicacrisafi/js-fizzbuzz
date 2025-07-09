@@ -20,5 +20,7 @@ for (let i = 1; i <= 100; i++) {
   // cerca i multipli di 5 e stampa Buzz
   else if (i % 5 === 0) {
     console.log("Buzz");
-  } else console.log(i);
+  } else {
+    console.log(i);
+  }
 }
